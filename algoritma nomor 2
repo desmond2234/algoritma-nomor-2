@@ -1,0 +1,16 @@
+#include <iostream>
+
+/* run this program using the console pauser or add your own getch, system("pause") or input loop */
+using namespace std;
+int main(int argc, char** argv) {
+
+	int i;
+	cout<<"bilangan anda fahrenheit= ";
+	cin>>i;
+	float u;
+	cout<<"hasil ke celcius = "<<0.55*(i-32);
+	cout<<""<<endl;
+	float y;
+	cout<<"hasil ke reamur = "<<0.44*(i-32);
+	return 0;
+}
